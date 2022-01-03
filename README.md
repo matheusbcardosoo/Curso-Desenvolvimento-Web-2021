@@ -1,0 +1,1 @@
+Aqui encontra-se projetos desenvolvidos por mim, para praticar o conteudo aprendido nas aulas do curso "Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos" da Udemy, ministrado por Jorge Sant Ana e Jamilton Damasceno.
