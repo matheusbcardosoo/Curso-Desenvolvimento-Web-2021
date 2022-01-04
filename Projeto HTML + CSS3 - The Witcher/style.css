@@ -51,7 +51,15 @@ a{
 }
 
 .imagens-conteudo{
-	height: 445px;
-	width: 800px;
+	height: 325px;
+	width: 650px;
 	align-self: center;
+}
+
+.titulos2{
+	color: orangered;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 5px;
+	margin: 0px;
 }
