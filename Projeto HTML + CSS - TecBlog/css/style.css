@@ -1,0 +1,131 @@
+/*Limpa as formatações padrões*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "DejaVu Sans Mono", monospace, sans-serif;
+	background: #e6e6e6 ;
+}
+
+/*****LAYOUT*****/
+
+#area-cabecalho {
+	background-color: deepskyblue;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+	color: #4e4e4e;
+}
+
+#area-principal{
+	/*color: #FFF;*/
+	width: 980px;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+#area-posts{
+	width: 720px;
+	float: left;
+}
+
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+img{
+	width: 680px;
+	height: 400px;
+}
+
+#sidebar{
+	width: 260px;
+	float: right;
+}
+
+.conteudo-sidebar{
+	margin-left: 20px;
+	background: #FFF;
+	padding: 5px;
+	border: 1px solid deepskyblue;
+	border-bottom: none;
+	border-top: none;
+}
+
+.sidebar-post{
+	font-size: 0.8em;
+	border-bottom: 1px solid #A4A4A4;
+}
+
+#area-rodape{
+	color: #4e4e4e;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+	background: green;
+	background: #CEF6F5;
+}
+
+/****FORMATAÇÕES DO MENU****/
+a{
+	padding: 10px;
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: deepskyblue;
+}
+a:hover{
+	color: #FFF;
+	background: deepskyblue;
+}
+
+#sidebar a:link, #sidebar a:visited{
+	color: deepskyblue;	
+}
+#sidebar a:hover{
+	color: #skyblue;
+	background: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #FFF;
+	border: 1px solid deepskyblue;	
+}
+#area-cabecalho a:hover{
+	color: deepskyblue;
+	background: #FFF;
+}
+
+/****FORMATAÇÕES GERAIS****/
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+	color: deepskyblue;
+}
+
+h3{
+	color: deepskyblue;
+}
+
+.branco{
+	color: #FFF;
+}
+
+.data{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	color: #4e4e4e;
+}
