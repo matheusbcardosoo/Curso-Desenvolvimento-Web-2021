@@ -1,27 +1,29 @@
 body{
-	background-image: url('imagens/fundo.jpg');
-	background-repeat: repeat;
-	background-attachment: scroll;
+	background: #2E2E2E url('imagens/fundo.jpg') scroll;
+	font: 16px Arial, Georgia, serif;
 	margin: 0px 256px;
-	font-family: Arial, Georgia, serif;
-	width: 810;
+	width: 900px;
 }
 #cabecalho{
-	border: 2px solid #2E2E2E;
 	padding:  0px;
+}
+
+.imagem-principal{
+	height: 445px;
+	width: 900px;
 }
 
 a{
 	color: inherit;
 	text-decoration: none;
 }
-.menu{
-	color: whitesmoke;
+.menu{	
 	background: orangered;
+	color: whitesmoke;
 	font-size: 24px;
 	font-weight: bold;
 	height: 30px;
-	padding: 5px;
+	padding: 10px;
 	margin: 0px;
 }
 
@@ -46,4 +48,10 @@ a{
 	color: white;
 	padding: 5px;
 	margin: 0px;
+}
+
+.imagens-conteudo{
+	height: 445px;
+	width: 800px;
+	align-self: center;
 }
