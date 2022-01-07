@@ -13,7 +13,7 @@
 		$doente = false;
 		$elegivel = false;
 
-		if ($idade>=16 && $peso >=50 && $doente != true) {
+		if (($idade>=16 && $idade<=69) && $peso >=50 && $doente != true) {
 			$elegivel = true;
 		}
 	?>
