@@ -8,6 +8,9 @@
 <body>
 
 	<?php
+
+	//Colocando em pratica o que foi aprendido durante as aulas de funções
+	
 		function calcularImpostoDeRenda($salario){
 			$salario = $salario;
 			if ($salario <=1903.98 ){
